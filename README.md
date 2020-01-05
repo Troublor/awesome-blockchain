@@ -1,4 +1,4 @@
-### Awesome Blockchain Development and Applications
+## Awesome Blockchain Development and Applications
 
 For now, this repository only collects GitHub repos related to:
 * ***Frameworks*** that helps the development of smart contracts and decentralized applications (a.k.a dApp) on Ethereum.
@@ -10,6 +10,6 @@ and repos that are:
 
 This list will be frequently updated and other types of repos are to be included. 
 
-#### Frameworks
+### Frameworks
 
-##### Truffle
+#### Truffle
