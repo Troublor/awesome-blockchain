@@ -8,6 +8,8 @@ and repos that are:
 * ***Popular***: receives a number of stars or forks.
 * ***Well-maintained***: has been updated within a year.
 
+Research papers that are related to Software Engineering Research in dApps are also included. 
+
 This list will be frequently updated and other types of repos are to be included. 
 
 ## Frameworks
