@@ -76,12 +76,6 @@ The MakerDAO provides a platform that offers mortgage service on Ethereum. The M
 
 MakerDAO is open source on GitHub [here](https://github.com/makerdao)
 
-## Smart Contract Software Engineering Research 
+## Blockchain Software Engineering Research
 
-## dApp Software Engineering Research
-
-#### [A First Look at Blockchain-based Decentralized Applications](https://arxiv.org/pdf/1909.00939)
-
-* Kaidong Wu, Yun Ma, Gang Huang, Xuanzhe Liu
-* arXiv:1909.00939 
-
+*** A list of research papers can be accessed [here]()

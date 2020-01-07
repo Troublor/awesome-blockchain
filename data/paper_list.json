@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Making Smart Contracts Smarter",
+    "link": "https://dl.acm.org/doi/10.1145/2976749.2978309",
+    "authors": [
+      "Loi Luu",
+      "Duc-Hiep Chu",
+      "Hrishi Olickel",
+      "Prateek Saxena",
+      "Aquinas Hobor"
+    ],
+    "venue": "CCS16",
+    "tags": [
+      "SmartContract"
+    ]
+  },
+  {
+    "title": "A Survey of Attacks on Ethereum Smart Contracts",
+    "link": "https://link.springer.com/chapter/10.1007%2F978-3-662-54455-6_8",
+    "authors": [
+      "Nicola Atzei",
+      "Massimo Bartoletti",
+      "Tiziana Cimoli"
+    ],
+    "venue": "POST17",
+    "tags": [
+      "SmartContract"
+    ]
+  },
+  {
+    "title": "ContractFuzzer: fuzzing smart contracts for vulnerability detection",
+    "link": "https://dl.acm.org/doi/10.1145/3238147.3238177",
+    "authors": [
+      "Bo Jiang",
+      "Ye Liu",
+      "W.K. Chan"
+    ],
+    "venue": "ASE18",
+    "tags": [
+      "SmartContract"
+    ]
+  },
+  {
+    "title": "A First Look at Blockchain-based Decentralized Applications",
+    "link": "https://arxiv.org/pdf/1909.00939",
+    "authors": [
+      "Kaidong Wu",
+      "Yun Ma",
+      "Gang Huang",
+      "Xuanzhe Liu"
+    ],
+    "venue": "arXiv:1909.00939",
+    "tags": [
+      "dApp"
+    ]
+  }
+]
