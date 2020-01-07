@@ -1,7 +1,3 @@
-/**
- * 导航栏Vue组件
- */
-
 Vue.component('list', {
     props: [
         'keywords', //array
@@ -91,6 +87,9 @@ Vue.component('list', {
                 }
             }));
         },
+        serializeTags: function (tags) {
+            return tags.join("|");
+        }
     },
     watch: {
         keywords: function (val) {
@@ -118,7 +117,7 @@ Vue.component('list', {
             <template v-if="!empty">
                 <tr v-for="(entry, index) in visibleList">
                     <td>
-                        <entry v-bind:title="entry.title" v-bind:link="entry.link" v-bind:authors="entry.authors.join(', ')" v-bind:venue="entry.venue"></entry>
+                        <entry v-bind:title="entry.title" v-bind:link="entry.link" v-bind:authors="entry.authors.join(', ')" v-bind:venue="entry.venue" v-bind:serializedTags="serializeTags(entry.tags)"></entry>
                     </td>
                 </tr>
             </template>

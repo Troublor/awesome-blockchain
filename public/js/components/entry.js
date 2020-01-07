@@ -4,7 +4,13 @@ Vue.component('entry', {
         'link',
         'authors',
         'venue',
+        'serializedTags'
     ],
+    computed:{
+        tags: function () {
+            return this.serializedTags.split("|")
+        }
+    },
     template: `
 <div class="text-left">
     <div>
@@ -14,6 +20,10 @@ Vue.component('entry', {
     <ul>
         <li>{{ authors }}</li>
         <li>{{ venue }}</li>
+        <p>
+            <span class="badge badge-primary" v-for="tag in tags">{{ tag }}</span>
+        </p>
+        <p></p>
     </ul>
 </div>
     `
