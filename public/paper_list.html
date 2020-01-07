@@ -63,18 +63,6 @@
                     }, this);
                 }, vue);
             });
-            $.getJSON("../data/dApp_papers.json", function (data) {
-                data.forEach(function (entry) {
-                    this.paperList.push(entry);
-                    entry.tags.forEach(function (tag) {
-                        if (!this.tags.includes(tag)) {
-                            this.tags.push(tag);
-                        }
-                    }, this);
-                }, vue);
-
-                vue.tags.sort();
-            });
         },
         methods: {
             onChangeTags: function (tags) {
