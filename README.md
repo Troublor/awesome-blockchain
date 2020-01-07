@@ -26,6 +26,18 @@ Developers and users can easily create protocols and DAOs (Decentralized Autonom
 
 Aragon is open source on GitHub [here](https://github.com/aragon)
 
+### [Squeezer](https://squeezer.io/)
+
+Squeezer is a platform that empowers new-entry blockchain developers to build serverless dApps simply as dead.
+
+Squeezer is open source on GitHub [here](https://github.com/SqueezerIO)
+
+### [Embark](https://embark.status.im/)
+
+Embark is a framework that allows you to easily develop and deploy Decentralized Applications (DApps).
+
+Embark is open source on GitHub [here](https://github.com/embark-framework)
+
 ## dApps (Decentralized Application)
 
 ### [Augur](https://www.augur.net/)
@@ -51,3 +63,11 @@ Giveth is open source on GitHub [here](https://github.com/Giveth)
 Democracy Earth Foundation is building free, open source software for incorruptible blockchain-based decision-making(voting) within institutions of all sizes, from the most local involving two people to the most global involving all of us. 
 
 DemocracyEarth is open source on GitHub [here](https://github.com/DemocracyEarth)
+
+## dApp Software Engineering Research
+
+#### [A First Look at Blockchain-based Decentralized Applications](https://arxiv.org/pdf/1909.00939)
+
+* Kaidong Wu, Yun Ma, Gang Huang, Xuanzhe Liu
+* arXiv:1909.00939 
+
