@@ -1,6 +1,8 @@
-## Awesome Blockchain Development, Applications and SE Research
+## Awesome Blockchain-based Development, Applications and SE Research
 
-For now, this repository only collects GitHub repos related to:
+This collection consists of two major parts: ***Engineering*** and ***Research***. 
+
+***Engineering*** part collects ***open-source*** GitHub repos related to:
 * ***Frameworks*** that helps the development of smart contracts and decentralized applications (a.k.a dApp) on Ethereum.
 * ***dApps*** that relies on smart contracts on Ethereum.
 
@@ -8,7 +10,9 @@ and repos that are:
 * ***Popular***: receives a number of stars or forks.
 * ***Well-maintained***: has been updated within a year.
 
-Research papers that are related to Software Engineering Research in dApps and Smart Contracts are also included. 
+***Research*** part collects Software Engineering Research papers that are:
+* ***Blockchain***, ***Smart Contract***, ***dApp*** related. 
+* ***High Quality***: published on top conferences or journals in the field of SE or others that contributes a lot. 
 
 This list will be frequently updated and other types of repos are to be included. 
 
@@ -65,6 +69,12 @@ Giveth is open source on GitHub [here](https://github.com/Giveth)
 Democracy Earth Foundation is building free, open source software for incorruptible blockchain-based decision-making(voting) within institutions of all sizes, from the most local involving two people to the most global involving all of us. 
 
 DemocracyEarth is open source on GitHub [here](https://github.com/DemocracyEarth)
+
+### [MakerDAO](https://cdp.makerdao.com/?utm_source=StateOfTheDApps)
+
+The MakerDAO provides a platform that offers mortgage service on Ethereum. The MakerDAO Collateralized Debt Position (CDP) is a smart contract which runs on the Ethereum blockchain. It is a core component of the Dai Stablecoin System whose purpose is to create Dai in exchange for collateral which it then holds in escrow until the borrowed Dai is returned.
+
+MakerDAO is open source on GitHub [here](https://github.com/makerdao)
 
 ## Smart Contract Software Engineering Research 
 
