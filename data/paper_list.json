@@ -41,6 +41,84 @@
     ]
   },
   {
+    "title": "Exploiting the laws of order in smart contracts",
+    "link": "https://dl.acm.org/doi/10.1145/3293882.3330560",
+    "authors": [
+      "Aashish Kolluri",
+      "Ivica Nikolic",
+      "Ilya Sergey",
+      "Aquinas Hobor",
+      "Prateek Saxena"
+    ],
+    "venue": "ISSTA19",
+    "tags": [
+      "SmartContract"
+    ]
+  },
+  {
+    "title": "Vandal: A Scalable Security Analysis Framework for Smart Contracts",
+    "link": "https://arxiv.org/abs/1809.03981",
+    "authors": [
+      "Lexi Brent",
+      "Anton Jurisevic",
+      "Michael Kong",
+      "Eric Liu",
+      ",Francois Gauthier",
+      ",Vincent Gramoli",
+      "Ralph Holz",
+      "Bernhard Scholz"
+    ],
+    "venue": "arXiv:1809.03981",
+    "tags": [
+      "SmartContract"
+    ]
+  },
+  {
+    "title": "MadMax: surviving out-of-gas conditions in Ethereum smart contracts",
+    "link": "https://dl.acm.org/doi/10.1145/3276486",
+    "authors": [
+      "Neville Grech",
+      "Michael Kong",
+      "Anton Jurisevic",
+      "Lexi Brent",
+      "Bernhard Scholz",
+      "Yannis Smaragdakis"
+    ],
+    "venue": "OOPSLA18",
+    "tags": [
+      "SmartContract"
+    ]
+  },
+  {
+    "title": "Gigahorse: Thorough, Declarative Decompilation of Smart Contracts",
+    "link": "https://ieeexplore.ieee.org/document/8811905",
+    "authors": [
+      "Neville Grech",
+      "Lexi Brent",
+      "Bernhard Scholz",
+      "Yannis Smaragdakis"
+    ],
+    "venue": "ICSE19",
+    "tags": [
+      "SmartContract"
+    ]
+  },
+  {
+    "title": "VULTRON: Catching Vulnerable Smart Contracts Once and for All",
+    "link": "https://ieeexplore.ieee.org/document/8805696",
+    "authors": [
+      "Haijun Wang",
+      "Yi Li",
+      "Shang-Wei Lin",
+      "Lei Ma",
+      "Yang Liu"
+    ],
+    "venue": "ICSE19(NIER)",
+    "tags": [
+      "SmartContract"
+    ]
+  },
+  {
     "title": "A First Look at Blockchain-based Decentralized Applications",
     "link": "https://arxiv.org/pdf/1909.00939",
     "authors": [
