@@ -78,4 +78,4 @@ MakerDAO is open source on GitHub [here](https://github.com/makerdao)
 
 ## Blockchain Software Engineering Research
 
-*** A list of research papers can be accessed [here]()
+*** A list of research papers can be accessed [here](https://troublor.github.io/awesome-blockchain/public/paper_list.html)
