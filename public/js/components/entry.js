@@ -4,22 +4,35 @@ Vue.component('entry', {
         'link',
         'authors',
         'venue',
+        'keywords',
         'serializedTags'
     ],
     computed:{
         tags: function () {
             return this.serializedTags.split("|")
-        }
+        },
+        "hTitle": function () {
+            let reg = new RegExp("(" + this.keywords.join("|") + ")", "gi");
+            return this.title.replace(reg, "<span style='background-color: #8ca0f754'>$1</span>");
+        },
+        "hAuthors": function () {
+            let reg = new RegExp("(" + this.keywords.join("|") + ")", "gi");
+            return this.authors.replace(reg, "<span  style='background-color: #8ca0f754'>$1</span>");
+        },
+        "hVenue": function () {
+            let reg = new RegExp("(" + this.keywords.join("|") + ")", "gi");
+            return this.venue.replace(reg, "<span style='background-color: #8ca0f754'>$1</span>");
+        },
     },
     template: `
 <div class="text-left">
     <div>
-        <a v-if="this.link.length > 0" v-bind:href="{link}">{{ title }}</a>
-        <span v-else>{{ title }}</span>
+        <a v-if="this.link.length > 0" v-bind:href="link" v-html="hTitle"></a>
+        <span v-else v-html="hTitle"></span>
     </div>
     <ul>
-        <li>{{ authors }}</li>
-        <li>{{ venue }}</li>
+        <li v-html="hAuthors"></li>
+        <li v-html="hVenue"></li>
         <p>
             <span class="badge badge-primary" v-for="tag in tags">{{ tag }}</span>
         </p>

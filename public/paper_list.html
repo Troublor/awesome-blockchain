@@ -63,6 +63,7 @@
                     }, this);
                 }, vue);
             });
+            vue.tags.sort();
         },
         methods: {
             onChangeTags: function (tags) {
@@ -76,12 +77,21 @@
             },
             onReverse: function (reverse) {
                 this.reverse = reverse;
+            },
+            goToTop: function () {
+                $("html").animate({scrollTop: 0});
             }
         }
     });
 
     $(function () {
-
+        $(document).scroll(function () {
+            if ($(this).scrollTop() !== 0) {
+                $(".up-helper").css("display", "flex");
+            } else {
+                $(".up-helper").css("display", "none");
+            }
+        });
     })
 
 </script>
