@@ -12,17 +12,11 @@
     <script src="js/components/list.js"></script>
     <script src="js/components/entry.js"></script>
     <script src="js/components/filter.js"></script>
+
+    <!-- data -->
+    <script src="paper_list.js"></script>
 </head>
 <body>
-<!--<div class="header">-->
-<!--    <div class="container d-flex align-items-center h-100">-->
-<!--        <div class="head-logo">-->
-<!--            <a href="http://sccpu2.cse.ust.hk/castle/index.html">-->
-<!--                <img src="img/castle-white.png" alt=" " height="68px">-->
-<!--            </a>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
 <div id="app">
     <div class="container">
         <h2 class="mt-5">Paper List: </h2>
@@ -32,13 +26,6 @@
               v-bind:sortedby="sortedBy" v-bind:reverse="reverse"></list>
     </div>
 </div>
-<!--<div class="footer">-->
-<!--    <div class="container">-->
-<!--        <div class="footer-text">-->
-<!--            © CASTLE Group | <a href="http://www.cse.ust.hk">CSE in HKUST</a> | last updated: 10 Nov, 2019-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
 
 <script>
     new Vue({
@@ -53,7 +40,7 @@
         },
         created: function () {
             let vue = this;
-            $.getJSON("../data/paper_list.json", function (data) {
+            const processData = function (data) {
                 data.forEach(function (entry) {
                     this.paperList.push(entry);
                     entry.tags.forEach(function (tag) {
@@ -62,7 +49,9 @@
                         }
                     }, this);
                 }, vue);
-            });
+            };
+            // $.getJSON("paper_list.json", processData);
+            processData(paper_list);
             vue.tags.sort();
         },
         methods: {

@@ -1,0 +1,3 @@
+[submodule "paper-list"]
+	path = public
+	url = https://github.com/Troublor/paper-list.git
