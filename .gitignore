@@ -9,6 +9,3 @@ out
 gen
 
 .DS_Store
-
-### ignore nested git repo
-/public
