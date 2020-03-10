@@ -12,7 +12,7 @@ const paper_list = [
         "venue": "CCS",
         "year": "2016",
         "tags": [
-            "SmartContract"
+            "Smart Contract"
         ]
     },
     {
@@ -26,7 +26,7 @@ const paper_list = [
         "venue": "POST",
         "year": "2017",
         "tags": [
-            "SmartContract"
+            "Smart Contract"
         ]
     },
     {
@@ -40,7 +40,7 @@ const paper_list = [
         "venue": "ASE",
         "year": "2018",
         "tags": [
-            "SmartContract"
+            "Smart Contract"
         ]
     },
     {
@@ -56,7 +56,7 @@ const paper_list = [
         "venue": "ISSTA",
         "year": "2019",
         "tags": [
-            "SmartContract"
+            "Smart Contract"
         ]
     },
     {
@@ -75,7 +75,7 @@ const paper_list = [
         "venue": "arXiv:1809.03981",
         "year": "2018",
         "tags": [
-            "SmartContract"
+            "Smart Contract"
         ]
     },
     {
@@ -92,7 +92,7 @@ const paper_list = [
         "venue": "OOPSLA",
         "year": "2018",
         "tags": [
-            "SmartContract"
+            "Smart Contract"
         ]
     },
     {
@@ -107,7 +107,7 @@ const paper_list = [
         "venue": "ICSE",
         "year": "2019",
         "tags": [
-            "SmartContract"
+            "Smart Contract"
         ]
     },
     {
@@ -123,7 +123,7 @@ const paper_list = [
         "venue": "ICSE(NIER)",
         "year": "2019",
         "tags": [
-            "SmartContract"
+            "Smart Contract"
         ]
     },
     {
@@ -154,7 +154,7 @@ const paper_list = [
         "venue": "ICSE",
         "year": "2020",
         "tags": [
-            "SmartContract"
+            "Smart Contract"
         ]
     }
 ];
