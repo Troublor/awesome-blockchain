@@ -156,5 +156,21 @@ const paper_list = [
         "tags": [
             "Smart Contract"
         ]
+    },
+    {
+        "title": "Recommending Differentiated Code to Support Smart Contract Update",
+        "link": "https://ieeexplore.ieee.org/abstract/document/8813255",
+        "authors": [
+            "Yuan Huang",
+            "Queping Kong",
+            "Nan Jia",
+            "Xiangping Chen",
+            "Zibin Zheng",
+        ],
+        "venue": "ICPC",
+        "year": "2019",
+        "tags": [
+            "Smart Contract",
+        ]
     }
 ];
