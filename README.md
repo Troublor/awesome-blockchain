@@ -88,6 +88,12 @@ OpenSea is a market to trade digital goods. It provides a javascript library to 
 
 OpenSea is open source on GitHub [here](https://github.com/ProjectOpenSea)
 
+### [3Box](https://3box.io)
+
+3Box is the best way for developers to manage user data without operating a backend server. The 3Box distributed user data network supports keeping public and private data for Ethereum users. All data is publicly available, but private data can only be decrypted by dapps that the user has given explicit permission. We provide 3Box Hub, an app that allows users to manage their profile and personal storage drive, as well as a JavaScript SDK that makes it easy for developers to add decentralized identity, auth, profiles, storage, and messaging to their web application.
+
+3Box is open source on GitHub [here](https://github.com/3box)
+
 ## Blockchain Software Engineering Research
 
 *** A list of research papers can be accessed [here](https://troublor.github.io/awesome-blockchain/public/index.html)
