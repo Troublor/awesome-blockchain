@@ -82,6 +82,12 @@ The Uniswap dapp is an exchange market for ERC20 tokens.
 
 Uniswap is open source on GitHub [here](https://github.com/Uniswap)
 
+### [OpenSea](https://opensea.io)
+
+OpenSea is a market to trade digital goods. It provides a javascript library to facilitate trading.
+
+OpenSea is open source on GitHub [here](https://github.com/ProjectOpenSea)
+
 ## Blockchain Software Engineering Research
 
 *** A list of research papers can be accessed [here](https://troublor.github.io/awesome-blockchain/public/index.html)
