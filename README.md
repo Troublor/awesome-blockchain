@@ -76,6 +76,12 @@ The MakerDAO provides a platform that offers mortgage service on Ethereum. The M
 
 MakerDAO is open source on GitHub [here](https://github.com/makerdao)
 
+### [Uniswap](https://uniswap.io/)
+
+The Uniswap dapp is an exchange market for ERC20 tokens.
+
+Uniswap is open source on GitHub [here](https://github.com/Uniswap)
+
 ## Blockchain Software Engineering Research
 
 *** A list of research papers can be accessed [here](https://troublor.github.io/awesome-blockchain/public/index.html)
