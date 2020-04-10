@@ -97,3 +97,15 @@ OpenSea is open source on GitHub [here](https://github.com/ProjectOpenSea)
 ## Blockchain Software Engineering Research
 
 *** A list of research papers can be accessed [here](https://troublor.github.io/awesome-blockchain/public/index.html)
+
+## Taxonomy & Benchmarks
+
+* [DASP10](https://dasp.co)
+
+* [SmartBugs](https://github.com/smartbugs/smartbugs)
+
+* [SmartBugs-Wild](https://github.com/smartbugs/smartbugs-wild)
+
+* [Not So Smart Contracts](https://github.com/crytic/not-so-smart-contracts)
+
+
